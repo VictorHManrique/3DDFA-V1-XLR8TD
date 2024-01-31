@@ -28,10 +28,15 @@ In addition, I strongly recommend using Python3.6+ instead of older version for 
 
 ### Usage
 
-1. Clone this repo (this may take some time as it is a little big)
+1. Create conda enviroment 
     ```
-    git clone https://github.com/cleardusk/3DDFA.git  # or git@github.com:cleardusk/3DDFA.git
-    cd 3DDFA
+    conda create --name XLR8TD python=3.11.5
+    ```
+    
+2. Clone this repo
+    ```
+    git clone https://github.com/VictorHManrique/3DDFA-V1-XLR8TD.git
+    cd 3DDFA-V1-XLR8TD
     ```
 
    Then, download dlib landmark pre-trained model in [Google Drive](https://drive.google.com/open?id=1kxgOZSds1HuUIlvo5sRH3PJv377qZAkE) or [Baidu Yun](https://pan.baidu.com/s/1bx-GxGf50-KDk4xz3bCYcw), and put it into `models` directory. (To reduce this repo's size)
