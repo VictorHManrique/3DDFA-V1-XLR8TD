@@ -1,16 +1,7 @@
-# Face Alignment in Full Pose Range: A 3D Total Solution
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![stars](https://img.shields.io/github/stars/cleardusk/3DDFA.svg?style=flat)
-![GitHub issues](https://img.shields.io/github/issues/cleardusk/3DDFA.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/cleardusk/3DDFA.svg)
+# Towards Real-Time Lightweight Facial Reconstruction Model
 
 <!-- By [Jianzhu Guo](https://guojianzhu.com/aboutme.html). -->
-By [Jianzhu Guo](http://guojianzhu.com).
-
-
-<p align="center">
-  <img src="samples/obama_three_styles.gif" alt="obama">
-</p>
+By [Victor Hernández-Manrique, Miguel González-Mendoza, EugeniaVirtualHumans](https://www.eugenia.tech/).
 
 **\[Updates\]**
  - `2022.5.14`: Recommend a python implementation of face profiling: [face_pose_augmentation](https://github.com/hhj1897/face_pose_augmentation).
