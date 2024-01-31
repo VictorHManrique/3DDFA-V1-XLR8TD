@@ -4,35 +4,7 @@
 By [Victor Hernández-Manrique, Miguel González-Mendoza, EugeniaVirtualHumans](https://www.eugenia.tech/).
 
 **\[Updates\]**
- - `2022.5.14`: Recommend a python implementation of face profiling: [face_pose_augmentation](https://github.com/hhj1897/face_pose_augmentation).
-
-## Introduction
-
-## Applications & Features
-#### 1. Face Alignment
-<p align="center">
-  <img src="samples/dapeng_3DDFA_trim.gif" alt="dapeng">
-</p>
-
-#### 2. Face Reconstruction
-<p align="center">
-  <img src="samples/5.png" alt="demo" width="750px">
-</p>
-
-#### 3. 3D Pose Estimation
-<p align="center">
-  <img src="samples/pose.png" alt="tongliya" width="750px">
-</p>
-
-#### 4. Depth Image Estimation
-<p align="center">
-  <img src="samples/demo_depth.jpg" alt="demo_depth" width="750px">
-</p>
-
-#### 5. PNCC & PAF Features
-<p align="center">
-  <img src="samples/demo_pncc_paf.jpg" alt="demo_pncc_paf" width="800px">
-</p>
+ - `2024.01.31`: 3DDFA-V1 XLR8TD
 
 ## Getting started
 ### Requirements
