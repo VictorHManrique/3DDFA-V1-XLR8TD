@@ -65,17 +65,9 @@ In addition, I strongly recommend using Python3.6+ instead of older version for 
 
     Because `test1.jpg` has two faces, there are two `.ply` and `.obj` files (can be rendered by Meshlab or Microsoft 3D Builder) predicted. Depth, PNCC, PAF and pose estimation are all set true by default. Please run `python3 main.py -h` or review the code for more details.
 
-4. Additional example
+4. Run the `xlr8td.py`
 
     ```
-    python3 ./main.py -f samples/emma_input.jpg --bbox_init=two --dlib_bbox=false
+    python3 xlr8td.py
     ```
-
-<p align="center">
-  <img src="samples/emma_input_3DDFA.jpg" alt="samples" width="750px">
-</p>
-
-<p align="center">
-  <img src="samples/emma_input_pose.jpg" alt="samples" width="750px">
-</p>
 
