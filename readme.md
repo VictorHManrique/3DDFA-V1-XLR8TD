@@ -28,9 +28,14 @@ In addition, I strongly recommend using Python3.6+ instead of older version for 
 
 ### Usage
 
-1. Create conda enviroment 
+1. Create conda environment 
     ```
     conda create --name XLR8TD python=3.11.5
+    ```
+    
+2. Activate conda environment
+    ```
+    conda activate XLR8TD
     ```
     
 2. Clone this repo
@@ -41,13 +46,28 @@ In addition, I strongly recommend using Python3.6+ instead of older version for 
 
    Then, download dlib landmark pre-trained model in [Google Drive](https://drive.google.com/open?id=1kxgOZSds1HuUIlvo5sRH3PJv377qZAkE) or [Baidu Yun](https://pan.baidu.com/s/1bx-GxGf50-KDk4xz3bCYcw), and put it into `models` directory. (To reduce this repo's size)
 
+3. Install default packages
+    ```
+    pip install torch torchvision
+    pip install dlib
+    pip install opencv-python
+    pip install cython
+    pip install kivy
+    pip install kivymd
+    pip install matplotlib
+    ```
 
-2. Build cython module (just one line for building)
+4. Build cython module (just one line for building)
    ```
    cd utils/cython
    python3 setup.py build_ext -i
    ```
    This is for accelerating depth estimation and PNCC render since Python is too slow in for loop.
+
+5. Return to main
+   ```
+   cd ..
+   ```
    
     
 3. Run the `main.py` with arbitrary image as input
