@@ -6,27 +6,7 @@ By [Victor Hernández-Manrique, Miguel González-Mendoza, EugeniaVirtualHumans](
 **\[Updates\]**
  - `2024.01.31`: 3DDFA-V1 XLR8TD
 
-## Getting started
-### Requirements
- - PyTorch >= 0.4.1 (**PyTorch v1.1.0** is tested successfully on macOS and Linux.)
- - Python >= 3.6 (Numpy, Scipy, Matplotlib)
- - Dlib (Dlib is optionally for face and landmarks detection. There is no need to use Dlib if you can provide face bouding bbox and landmarks. Besides, you can try the two-step inference strategy without initialized landmarks.)
- - OpenCV (Python version, for image IO operations.)
- - Cython (For accelerating depth and PNCC render.)
- - Platform: Linux or macOS (Windows is not tested.)
-
- ```
- # installation structions
- sudo pip3 install torch torchvision # for cpu version. more option to see https://pytorch.org
- sudo pip3 install numpy scipy matplotlib
- sudo pip3 install dlib==19.5.0 # 19.15+ version may cause conflict with pytorch in Linux, this may take several minutes. If 19.5 version raises errors, you may try 19.15+ version.
- sudo pip3 install opencv-python
- sudo pip3 install cython
- ```
-
-In addition, I strongly recommend using Python3.6+ instead of older version for its better design.
-
-### Usage
+## Usage
 
 1. Create conda environment 
     ```
@@ -49,12 +29,12 @@ In addition, I strongly recommend using Python3.6+ instead of older version for 
 3. Install default packages
     ```
     pip install torch torchvision
+    pip install numpy scipy matplotlib
     pip install dlib
     pip install opencv-python
     pip install cython
     pip install kivy
     pip install kivymd
-    pip install matplotlib
     ```
 
 4. Build cython module (just one line for building)
