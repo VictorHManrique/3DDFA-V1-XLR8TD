@@ -22,20 +22,17 @@ Anaconda
 
    Then, download dlib landmark pre-trained model in [Google Drive](https://drive.google.com/open?id=1kxgOZSds1HuUIlvo5sRH3PJv377qZAkE) or [Baidu Yun](https://pan.baidu.com/s/1bx-GxGf50-KDk4xz3bCYcw), and put it into `models` directory. (To reduce this repo's size)
 
-1. Create Conda Environment
+2. Create Conda Environment
     ```
     conda env create -f environment.yml
     ```
 
-2. Activate Conda Environment
-    ```5. ```
+3. Activate Conda Environment
+    ```
     conda activate XLR8TD
     ```
 
-    conda activate XLR8TD
-    ```
-
-3. Run the UI
+4. Run the UI
     ```
     python3 xlr8td.py
     ```
