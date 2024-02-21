@@ -38,7 +38,7 @@ Anaconda
     ```
     
     ```
-    cpython3 setup.py build_ext -i
+    python3 setup.py build_ext -i
     ```
     
 5. Return to Main
