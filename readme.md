@@ -41,7 +41,12 @@ Anaconda
     cpython3 setup.py build_ext -i
     ```
     
-5. Run the UI
+5. Return to Main
+    ```
+    cd ..
+    ```
+    
+6. Run the UI
     ```
     python3 xlr8td.py
     ```
