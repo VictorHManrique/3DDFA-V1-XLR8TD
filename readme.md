@@ -24,5 +24,15 @@ Anaconda
     conda env create -f environment.yml
     ```
 
+3. Activate Conda Environment
+    ```5. ```
+    conda activate XLR8TD
+    ```
 
+    conda activate XLR8TD
+    ```
 
+4. Run the UI
+    ```
+    python3 xlr8td.py
+    ```
