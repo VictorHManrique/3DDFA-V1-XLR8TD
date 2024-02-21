@@ -32,7 +32,16 @@ Anaconda
     conda activate XLR8TD
     ```
 
-4. Run the UI
+4. Build cython module (just one line for building)
+    ```
+    cd utils/cython
+    ```
+    
+    ```
+    cpython3 setup.py build_ext -i
+    ```
+    
+5. Run the UI
     ```
     python3 xlr8td.py
     ```
