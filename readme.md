@@ -51,4 +51,4 @@ Anaconda
     ```
     python3 xlr8td.py
     ```
-7. Once the UI is displayed, **click on the "XLR8TD button**.
+7. Once the UI is displayed, **click on the XLR8TD button**.
