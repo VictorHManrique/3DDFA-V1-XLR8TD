@@ -43,7 +43,7 @@ Anaconda
     
 5. Return to Main
     ```
-    cd ..
+    cd ../..
     ```
     
 6. Run the UI
