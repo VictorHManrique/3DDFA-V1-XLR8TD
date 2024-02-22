@@ -4,7 +4,8 @@
 By [Victor Hernández-Manrique, Miguel González-Mendoza, EugeniaVirtualHumans](https://www.eugenia.tech/).
 
 **\[Updates\]**
- - `2024.01.31`: 3DDFA-V1 XLR8TD
+ - `2024.02.21`: Finished documentation of 3DDFA-V1 XLR8TD for its installation and usage.
+ - `2024.01.31`: Creation of repository "3DDFA-V1 XLR8TD"
 
 ## Requirements
 Anaconda
