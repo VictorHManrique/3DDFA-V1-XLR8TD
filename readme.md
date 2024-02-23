@@ -8,8 +8,8 @@ By [Victor Hernández-Manrique, Miguel González-Mendoza, EugeniaVirtualHumans](
  - `2024.01.31`: Creation of repository "3DDFA-V1 XLR8TD"
 
 ## Requirements
-Ubuntu >=23.10
-Anaconda >=24.1.0
+ - Ubuntu >=23.10
+ - Anaconda >=24.1.0
 
 ## Usage
 
